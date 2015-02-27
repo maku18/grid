@@ -69,13 +69,53 @@ background: #333;
     border-bottom: 1px solid #ddd;
 }
 .main_wrapper .building .icon {
-    height: 28px;
-    background: blue;
+    height: 35px;
+    background: #fff;
     overflow: hidden;
     clear: both;
 }
-.main_wrapper .building .headline {
+.main_wrapper .building .icon .container {
+    overflow: hidden;
+    clear: both;
+    height: 30px;
+    width: 55px;
+    float: left;
+}
+.main_wrapper .building .icon .container span {
+    font-size: 8px;
+    font-weight: bold;
+    border: 1px solid black;
+    border-radius: 2px;
+    margin: 12px 0 0 16px;
+    background: #DF92FA;
+    float: left;
+    height: 15px;
+    width: 33px;
+    text-align: center;
+}
+.main_wrapper .building .icon .camera {
+    clear: both;
+    overflow: hidden;
+    height: 30px;
+    width: 30px;
+    float: right;
+    position: absolute;
+    margin-left: 55px;
+}
+.main_wrapper .building .icon .camera i {
+    padding: 12px 0 0 5px;
+}
+.main_wrapper .building .headline p {
     font-size: 12px;
     font-weight: bold;
-    margin: 11px 0 0 16px;
+    margin: 6px 0 0 16px;
+    clear: both;
+    overflow: hidden;
+}
+.main_wrapper .building .text {
+    font-size: 11px;
+    color: #A2A2A2;
+    margin: 15px 0 20px 16px;
+    font-weight: bold;
+    p: { font-family: 'Amaranth', serif; }
 }
