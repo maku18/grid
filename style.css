@@ -49,39 +49,49 @@ body {
 background: #333;
 }
 .main_wrapper {
-    height: 552px;
+    height: 562px;
     width: 736px;
     background: #222;
-    margin: auto;
+    margin: 50px auto;
     overflow: hidden;
 }
-.main_wrapper .building {
+.main_wrapper .box {
+    height: 502px;
+    width: 594px;
+    margin: auto;
+}
+.main_wrapper .box .building {
     height: 245px;
     width: 186px;
     background: #fff;
-    margin: 27px 0 0 72px;
+    margin-top: 27px;
     border-radius: 5px;
     clear: both;
     overflow: hidden;
+    float: left;
 }
-.main_wrapper .building .picture {
+.main_wrapper .box .building .picture {
     height: 112px;   
     border-bottom: 1px solid #ddd;
+    overflow: hidden;
 }
-.main_wrapper .building .icon {
+.main_wrapper .box .building .picture img {
+    width: 100%;
+}
+.main_wrapper .box .building .icon {
     height: 35px;
     background: #fff;
     overflow: hidden;
     clear: both;
 }
-.main_wrapper .building .icon .container {
+.main_wrapper .box .building .icon .container {
     overflow: hidden;
     clear: both;
     height: 30px;
     width: 55px;
     float: left;
 }
-.main_wrapper .building .icon .container span {
+.main_wrapper .box .building .icon .container span {
     font-size: 8px;
     font-weight: bold;
     border: 1px solid black;
@@ -92,8 +102,9 @@ background: #333;
     height: 15px;
     width: 33px;
     text-align: center;
+    line-height: 15px;
 }
-.main_wrapper .building .icon .camera {
+.main_wrapper .box .building .icon .camera {
     clear: both;
     overflow: hidden;
     height: 30px;
@@ -102,20 +113,84 @@ background: #333;
     position: absolute;
     margin-left: 55px;
 }
-.main_wrapper .building .icon .camera i {
+.main_wrapper .box .building .icon .camera i {
     padding: 12px 0 0 5px;
 }
-.main_wrapper .building .headline p {
+.main_wrapper .box .building .headline p {
     font-size: 12px;
     font-weight: bold;
     margin: 6px 0 0 16px;
     clear: both;
     overflow: hidden;
 }
-.main_wrapper .building .text {
+.main_wrapper .box .building .text {
     font-size: 11px;
     color: #A2A2A2;
     margin: 15px 0 20px 16px;
     font-weight: bold;
-    p: { font-family: 'Amaranth', serif; }
+    font-family: 'Amaranth', serif; 
+}
+.main_wrapper .box .proverb {
+    height: 245px;
+    width: 186px;
+    background: #692ED4;
+    border-radius: 5px;
+    margin: 25px 0 0 215px;
+    clear: both;
+    overflow: hidden;
+    float: right;
+    position: absolute;
+    
+}
+.main_wrapper .box .proverb .headline p {
+    color: #fff;
+    font-weight: bold;
+    font-size: 10px;
+    margin: 25px 0 0 20px;
+}
+.main_wrapper .box .proverb .content p {
+    font-weight: bold;
+    font-size: 20px;
+    color: #fff;
+    margin: 10px 0 0 20px;
+}
+.main_wrapper .box .proverb .date {
+    height: 60px;
+    width: 186px;
+    border-bottom: 1px solid #A46FFA;
+}
+.main_wrapper .box .proverb .date i {
+    margin: 15 0 0 24px;
+    float: left;
+    font-size: small;
+    color: #A46FFA;
+}
+.main_wrapper .box .proverb .date p {
+    width: 120px;
+    float: right;
+    margin: 18px 25px 0 0;
+    font-size: 8px;
+    color: #A46FFA;
+}
+.main_wrapper .box .proverb .avatar {
+    height: 25px;
+    width: 25px;
+    border-radius: 50%;
+    background: #111;
+    margin: 10px 0 0 30px;
+    float: left;
+}
+.main_wrapper .box .proverb .signature {
+    width: 120px;
+    float: right;
+}
+.main_wrapper .box .proverb .signature .prefix p {
+    font-size: 9px;
+    color: #A46FFA;
+    margin: 10px 50px 0 0;
+}
+.main_wrapper .box .proverb .signature .name p {
+    font-size: 10px;
+    color: #fff;
+    margin-top: 3px;
 }
