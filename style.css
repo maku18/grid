@@ -194,3 +194,86 @@ background: #333;
     color: #fff;
     margin-top: 3px;
 }
+.main_wrapper .box .shop {
+    height: 245px;
+    width: 186px;
+    background: #fff;
+    margin-top: 27px;
+    border-radius: 5px;
+    clear: both;
+    overflow: hidden;
+    float: right;
+    position: absolute;
+    margin: 27px 0 0 430px;
+}
+.main_wrapper .box .shop .headline p {
+    height: 10px;
+    width: 30px;
+    font-size: 10px;
+    color: red;
+    border: 1px solid #7FDCC7;
+    margin: 15px 0 0 80px;
+    text-align: center;
+    border-radius: 3px;
+    background: #7FDCC7;
+    color: #fff;
+}
+.main_wrapper .box .shop .picture {
+    height: 100px;
+    overflow: hidden;
+}
+.main_wrapper .box .shop .picture img {
+    line-height: 100px;
+    height: 100px;
+    margin-left: 40px;
+}
+.main_wrapper .box .shop .name p {
+    color: #9B9B9B;
+    font-weight: bold;
+    font-size: 10px;
+    margin-left: 75px;
+}
+.main_wrapper .box .shop .content p {
+    font-family: 'Allan', sans-serif;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 5px;
+    height: 45px;
+    border-bottom: 1px solid #F6F6F6;
+}
+.main_wrapper .box .shop .footer {
+    height: 60px;
+    width: 185px;
+    clear: both;
+    overflow: hidden;
+    background: #F6F6F6;
+}
+.main_wrapper .box .shop .border {
+    height: 25px;
+    width: 120px;
+    margin: 10px auto;
+    border: 1px solid black;
+    border-radius: 15px;
+}
+.main_wrapper .box .shop .price {
+    width: 40px;
+    float: left;
+}
+.main_wrapper .box .shop .price p {
+    color: #7897CE;
+    font-size: 13px;
+    border-right: 1px solid black;
+    height: 21px;
+    text-align: center;
+    padding-top: 5px;
+}
+.main_wrapper .box .shop .information {
+    width: 75px;
+    float: right;
+}
+.main_wrapper .box .shop .information p {
+    font-size: 10px;
+    font-weight: bold;
+    margin: 7px 0 0 10px;
+    
+}
