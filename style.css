@@ -46,7 +46,7 @@ border-collapse: collapse;
 border-spacing: 0;
 }
 body {
-background: #333;
+    background: #333;
 }
 .main_wrapper {
     height: 562px;
@@ -56,9 +56,10 @@ background: #333;
     overflow: hidden;
 }
 .main_wrapper .box {
-    height: 502px;
+    height: 600px;
     width: 594px;
     margin: auto;
+    overflow: hidden;
 }
 .main_wrapper .box .building {
     height: 245px;
@@ -276,4 +277,177 @@ background: #333;
     font-weight: bold;
     margin: 7px 0 0 10px;
     
+}
+.main_wrapper .box .title {
+    height: 245px;
+    width: 186px;
+    background: #0069DC;
+    margin-top: 27px;
+    border-radius: 5px;
+    clear: both;
+    overflow: hidden;
+    float: left;
+}
+.main_wrapper .box .title .headline {
+    height: 30px;
+}
+.main_wrapper .box .title .headline p {
+    font-size: 10px;
+    font-weight: bold;
+    color: #fff;
+    margin: 25px 0 0 73px;
+}
+.main_wrapper .box .title .content {
+    height: 70px;
+}
+.main_wrapper .box .title .content p {
+    font-size: 20px;
+    font-weight: bold;
+    color: #fff;
+    margin-left: 25px;
+}
+.main_wrapper .box .title .story {
+    height: 80px;
+}
+.main_wrapper .box .title .story p {
+    font-size: 13px;
+    font-weight: lighter;
+    color: #53A3FA;
+    margin-left: 25px;
+}
+.main_wrapper .box .title .story span {
+    font-size: 13px;
+    font-weight: lighter;
+    color: #53A3FA;
+    margin-left: 65px;
+}
+.main_wrapper .box .title .footer {
+    height: 25px;
+    width: 100px;
+    border: 1px solid #53A3FA;
+    margin: auto;
+    border-radius: 30px;
+}
+.main_wrapper .box .title .footer p {
+    color: #fff;
+    font-weight: bold;
+    font-size: 10px;
+    text-align: center;
+    margin-top: 7px;
+}
+.main_wrapper .box .list {
+    height: 245px;
+    width: 186px;
+    background: #fff;
+    margin: 300px 0 0 215px;
+    border-radius: 5px;
+    clear: both;
+    overflow: hidden;
+    float: right;
+    position: absolute;
+}
+.main_wrapper .box .list .icon {
+    width: 40px;
+}
+.main_wrapper .box .list .icon i {
+    color: #CBCBCB;
+    margin: 18px 0 0 20px;
+    float: left;
+}
+.main_wrapper .box .list .headline {
+    width: 100px;
+    height: 60px;
+}
+.main_wrapper .box .list .headline p {
+    color: #111;
+    font-size: 12px;
+    font-weight: bold;
+    margin: 22px 0 0 50px;
+    position: absolute;
+    float: right;
+}
+.main_wrapper .box .list .music {
+    height: 30px;
+}
+.main_wrapper .box .list .music i {
+    color: #6D4CBD;
+    font-size: 18px;
+    margin: 5 0 0 19px;
+    float: left;
+}
+.main_wrapper .box .list .music p {
+    width: 60px;
+    float: right;
+    margin: 10px 80px 0 0;
+    font-size: 9px;
+    font-weight: bold;
+    color: #9A9A9A;
+}
+.main_wrapper .box .list .people {
+    height: 30px;
+}
+.main_wrapper .box .list .people i {
+    color: #B8684F;
+    font-size: 18px;
+    margin: 10px 0 0 19px;
+    float: left;
+}
+.main_wrapper .box .list .people p {
+    width: 50px;
+    float: right;
+    font-size: 9px;
+    font-weight: bold;
+    color: #9A9A9A;
+    margin: 15px 90px 0 0;
+}
+.main_wrapper .box .list .watches {
+    height: 30px;
+}
+.main_wrapper .box .list .watches i {
+    color: #326077;
+    font-size: 18px;
+    margin: 13px 0 0 19px;
+    float: left;
+}
+.main_wrapper .box .list .watches p {
+    width: 50px;
+    float: right;
+    font-size: 12px;
+    font-weight: bold;
+    color: #9A9A9A;
+    margin: 15px 90px 0 0;
+}
+.main_wrapper .box .list .cinema {
+    height: 40px;
+}
+.main_wrapper .box .list .cinema i {
+    color: #D9CE52;
+    font-size: 18px;
+    margin: 19px 0 0 -15px;
+    float: left;
+}
+.main_wrapper .box .list .cinema p {
+    width: 50px;
+    float: right;
+    font-size: 13px;
+    font-weight: bold;
+    color: #9A9A9A;
+    margin: 22px 90px 0 0;
+}
+.main_wrapper .box .list .gear {
+    height: 35px;
+}
+.main_wrapper .box .list .gear i {
+    color: #D4B3E0;
+    font-size: 18px;
+    margin: 15px 0 0 19px;
+    float: left;
+}
+.main_wrapper .box .list .gear p {
+    width: 50px;
+    float: right;
+    font-size: 13px;
+    font-weight: bold;
+    color: #9A9A9A;
+    margin: 16px 90px 0 0;
 }
