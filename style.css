@@ -451,3 +451,65 @@ body {
     color: #9A9A9A;
     margin: 16px 90px 0 0;
 }
+.main_wrapper .box .citation {
+    height: 245px;
+    width: 186px;
+    background: #fff;
+    margin: 300px 0 0 430px;
+    border-radius: 5px;
+    clear: both;
+    overflow: hidden;
+    float: right;
+    position: absolute;
+    background: #88DCCC;
+}
+.main_wrapper .box .citation .headline {
+    height: 45px;
+    border-bottom: 1px solid #5AA497;
+    clear: both;
+    overflow: hidden;
+}
+.main_wrapper .box .citation .headline p {
+    color: #589E93;
+    width: 45px;
+    font-weight: bold;
+    font-size: 12px;
+    margin: 18px 0 0 75px;
+    float: left;
+}
+.main_wrapper .box .citation .headline i {
+    margin: 15px 18px 0 0;
+    float: right;
+    color: #3F8B7E;
+}
+.main_wrapper .box .citation .sign {
+    height: 45px;
+}
+.main_wrapper .box .citation .sign i {
+    color: #fff;
+    margin: 20px 0 0 85px;
+}
+.main_wrapper .box .citation .content {
+    height: 95px;
+    clear: both;
+    overflow: hidden;
+}
+.main_wrapper .box .citation .content p {
+    color: #297062;
+    text-align: center;
+    font-size: 20px;
+    font-family: 'Indie Flower', cursive;
+}
+.main_wrapper .box .citation .footer .author p {
+    font-size: 10px;
+    font-weight: bold;
+    text-align: center;
+    color: #2C7063;
+    margin-top: 10px;
+}
+.main_wrapper .box .citation .footer .profession p {
+    font-size: 10px;
+    text-align: center;
+    color: #2C7063;
+    font-family: 'Open Sans Condensed', sans-serif;
+}
